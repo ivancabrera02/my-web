@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ivancabrera02</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="articles.html">Artículos</a>
+            <a href="myself.html">Sobre mí</a>
+        </nav>
+    </header>
+    <div class="console">
+        <div class="console-header">
+            <div class="console-red-circle"></div>
+            <div class="console-yellow-circle"></div>
+            <div class="console-green-circle"></div>
+            <p class="console-header-p">Terminal</p>
+        </div>
+        <div class="console-text">
+            <p>ivan@desktop-MODEL02 $</p>
+            <input type="text" class="console-enter" autofocus id="console-input-text">
+            <!--<input type="button" value="Enter" id="console-input-button">-->
+        </div>
+        <div class="console-files" id="files">
+            <p>sobre mi</p>
+            <p>certificaciones</p>
+        </div>
+        <article class="sobre-mi" id="sobre-mi-id">
+            <p>Me llamo Iván y hace años descubrí el mundo de la ciberseguridad y el desarrollo web, desde entonces
+                no he parado de aprender día tras día. He devorado muchos libros y tutoriales y actualmente doy clases
+                online a personas cuya intención es aprender sobre este increíble mundo.
+            </p>
+        </article>
+        <article class="certificaciones" id="certificaciones-id">
+            <p>Ciberseguridad: Seguridad en Wordpress, OSINT, Hacking Web, Snort, Red Team, Blue Team, Triaje Informático,
+                Análisis de malware, Master en Seguridad Informática (curso).
+            </p>
+            <p>
+                Desarrollo Web: HTML y CSS, Javascript avanzado, PHP, jQuery, NodeJS, Sass, React, Boostrap.
+            </p>
+            <p>
+                Otras titulaciones: Bash scripting, Excel, Desarrollo de aplicaciones móviles, Cloud Computing, Docker.
+            </p>
+        </article>
+        <article class="non-suported" id="non-suported-id">
+            <p>Comando no soportado, pruebe help</p>
+        </article>
+        <article class="help" id="help-id">
+            <p>Comandos soportados:</p>
+            <ul>
+                <li>ls -> lista los elementos</li>
+                <li>cat -> visualiza los elementos</li>
+                <li>clear -> limpia la pantalla</li>
+                <li>Ctrl+l -> limpia la pantalla</li>
+            </ul>
+        </article>
+    </div>
+
+    <p class="warning">*Esto es una consola que imita una bash (help para ver sus comandos)</p>
+  
+    <script src="javascript/shortcut.js"></script>
+    <script src="javascript/app.js"></script>
+    
+</body>
+</html>

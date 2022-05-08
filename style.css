@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Source+Sans+Pro:wght@200&display=swap');
+/*font-family: 'Righteous', cursive;*/
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+body{
+    background-color: #050D1A;
+}
+header{
+    align-items: center;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 75px;
+    width: 100%;
+}
+.menu a{
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+}
+.column1{
+    grid-column: 1;
+    grid-row: 1 / 4;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: white;
+}
+.logo{
+    top: 97px;
+    left: 50%;
+    z-index: 1;
+    display: block;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 3px 10px 0 rgb(0 0 0 / 20%);
+}
+.column1 h1{
+    font-size: 20px;
+}
+.column1 p{
+    font-size: 14px;
+}
+.column1 a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+.github{
+    display: flex;
+    align-items: center;
+}
+.github a{
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.column2{
+    grid-column: 2;
+}
+.column2-title{
+    grid-column: 2;
+    grid-row: 1;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.first-article{
+    grid-column: 2;
+    grid-row: 2;
+}
+.first-article a, .second-article a, .third-article a, .four-article a, .five-article a, .six-article a, .seven-article a, .eight-article a{
+    color: aqua;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.first-article p, .second-article p, .third-article p, .four-article p, .five-article p, .six-article p, .seven-article p, .eight-article p{
+    color: white;
+    font-size: 14px;
+}
+.second-article{
+    grid-column: 2;
+    grid-row: 3;
+}
+.third-article{
+    grid-column: 2;
+    grid-row: 4;
+}
+.four-article{
+    grid-column: 2;
+    grid-row: 4;
+}
+.five-article{
+    grid-column: 2;
+    grid-row: 5;
+}
+.six-article{
+    grid-column: 2;
+    grid-row: 6;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.flex-container h2{
+    font-size: 20px;
+    color: white;
+}
+.myself-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.myself-container img{
+    margin-bottom: 10px;
+}
+.myself-container p{
+    color: white;
+    font-size: 15px;
+    margin-inline: 500px;
+}
+.console{
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 11px;
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.console-header{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(209, 209, 209);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    align-items: center;
+}
+.console-red-circle, .console-yellow-circle, .console-green-circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-inline: 3px;
+}
+.console-red-circle{
+    margin-left: 5px;
+    background-color: rgb(255, 0, 0);
+}
+.console-yellow-circle{
+    background-color: yellow;
+}
+.console-green-circle{
+    background-color: green;
+}
+.console-header-p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 273px; 
+    color: rgb(29, 96, 143);
+    font-weight: bold;
+}
+.console-text{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(174, 0, 174);
+    display: flex;
+    align-items: center;
+}
+.console-text p{
+    margin-bottom: 0;
+}
+.console-enter{
+    height: 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    margin-top: 15px;
+    color: rgb(29, 96, 143);
+    font-weight: bold;
+}
+.console-text input[type=button]{
+    background-color: rgb(174, 0, 174);
+    cursor: pointer;
+    color: white;
+}
+.console-files{
+    display: none;
+}
+.console-files p{
+    margin-right: 10px;
+    color: rgb(29, 96, 143);
+    font-weight: bold;
+}
+.sobre-mi, .certificaciones, .non-suported, .help{
+    display: none;
+    color: rgb(29, 96, 143);
+    font-weight: bold;
+}
+.warning{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
