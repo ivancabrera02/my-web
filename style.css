@@ -23,7 +23,8 @@ header{
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 30px;
 }
 .column1{
     grid-column: 1;
@@ -44,14 +45,22 @@ header{
 }
 .column1 h1{
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .column1 p{
     font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .column1 a{
     font-size: 14px;
     color: white;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 .github{
     display: flex;
@@ -84,6 +93,7 @@ header{
 .first-article p, .second-article p, .third-article p, .four-article p, .five-article p, .six-article p, .seven-article p, .eight-article p{
     color: white;
     font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .second-article{
     grid-column: 2;
@@ -214,4 +224,23 @@ header{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+}
+@media (max-width: 880px){
+    .column2{
+        grid-column: 1;
+        grid-row: 5 / 12;
+        margin: 0;
+    }
+    .column1{
+        margin: 0;
+        margin-top: 30px;
+    }
+    .grid-container{
+        gap: 0px;
+    }
+}
+@media (max-width: 384px){
+    .menu a{
+        font-size: 23px;
+    }
 }
